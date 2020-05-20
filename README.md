@@ -6,6 +6,22 @@ This module will created a Github repository and team adding the members provide
 <br />
 
 <!--- BEGIN_TF_DOCS --->
+## Providers
+
+| Name | Version |
+|------|---------|
+| github | >= 2.6.0 |
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:-----:|
+| product\_name | Name of the product, this will be used in the team and respoistory name | `string` | n/a | yes |
+| user\_names | List of users to add to this repository | `list(map(any))` | n/a | yes |
+
+## Outputs
+
+No output.
 <!--- END_TF_DOCS --->
 
 <br />
