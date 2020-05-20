@@ -17,12 +17,12 @@ https://www.terraform.io/docs/providers/github/index.html
 
 ~~~~
 provider "github" {
-  token        = "AAAAAAA11111111AAAAAAAAAA1111111"
-  organization = "lnrs-tfe-test"
+  token        = " "
+  organization = " "
 }
 
 module "github" {
-  source = "git@github.com/rba-terraform/terraform-github-repo.git?ref=v0.0.1"
+  source = "git@github.com/LexisNexis-Terraform/terraform-github-repo?ref=v1.0.0"
 
   product_name = "Example Application API"
   user_names   = [
